@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <form class="calculator">
+        <input type="range" min="0" max="100" value="0" step="1" id="range" class="calculator_range" required oninput="changeRange()"/>
+        <input type="number" min="0" max="100" value="0" step="1" id="number" class="calculator_number" required oninput="changeNumber()"/>
+      </form>
+
+      <div class="diagram">
+        <div class="commission" id="commission"></div>
+        <div class="entered_number" id="ent_number"></div>
+      </div>
+      
+    </div>
+  </body>
+
+</html>
+      

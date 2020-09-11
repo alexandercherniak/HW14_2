@@ -1,0 +1,40 @@
+.wrapper {
+  width: 500px;
+  margin: 100px auto 0;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.calculator {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.calculator_number {
+  width: 45%;
+}
+
+.calculator_range {
+  width: 45%;
+}
+
+.diagram {
+  width: 60px;
+  height: 150px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 30px auto 20px;
+}
+
+.diagram .entered_number {
+  border: 1px solid black;
+  background-color: green;
+}
+
+.diagram .commission {
+  border: 1px solid black;
+  background-color: red;
+}
